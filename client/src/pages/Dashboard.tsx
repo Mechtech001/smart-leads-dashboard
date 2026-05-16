@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, Download } from 'lucide-react';
 import { useLeads } from '../hooks/useLeads';
 import { useAuthStore } from '../store/authStore';

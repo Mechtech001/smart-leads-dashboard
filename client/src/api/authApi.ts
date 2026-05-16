@@ -1,5 +1,4 @@
 import axiosInstance from './axiosInstance';
-import { ApiResponse } from '../types/api';
 import { User } from '../types/user';
 
 interface AuthResponse {

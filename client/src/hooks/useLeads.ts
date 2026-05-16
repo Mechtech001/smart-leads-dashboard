@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Lead, LeadFilters } from '../types/lead';
 import { getLeads } from '../api/leadApi';
-import { PaginatedResponse } from '../types/api';
 
 export const useLeads = (initialFilters: LeadFilters) => {
   const [leads, setLeads] = useState<Lead[]>([]);

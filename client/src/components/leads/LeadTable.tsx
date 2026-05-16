@@ -1,4 +1,3 @@
-import React from 'react';
 import { Lead } from '../../types/lead';
 import { LeadRow } from './LeadRow';
 

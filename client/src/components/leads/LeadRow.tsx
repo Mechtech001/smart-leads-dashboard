@@ -1,4 +1,3 @@
-import React from 'react';
 import { Lead } from '../../types/lead';
 import { Badge } from '../ui/Badge';
 import { formatDate } from '../../utils/formatDate';

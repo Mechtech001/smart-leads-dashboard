@@ -1,6 +1,5 @@
 import axiosInstance from './axiosInstance';
 import { Lead, LeadFilters } from '../types/lead';
-import { ApiResponse, PaginatedResponse } from '../types/api';
 
 export async function getLeads(filters: LeadFilters) {
   const params = new URLSearchParams();

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Lead } from '../../types/lead';
 import { Modal } from '../ui/Modal';
 import { LeadForm } from './LeadForm';
