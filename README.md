@@ -2,7 +2,7 @@
 
 A complete production-ready full-stack application built with the MERN stack (MongoDB, Express, React, Node.js) and TypeScript.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React (Vite)
@@ -22,7 +22,7 @@ A complete production-ready full-stack application built with the MERN stack (Mo
 - express-validator (Validation)
 - bcryptjs (Password Hashing)
 
-## ✨ Features
+## Features
 
 - **Role-Based Access Control (RBAC)**: Admin and Sales user roles with different permissions.
 - **Authentication**: JWT-based secure authentication.
@@ -36,14 +36,14 @@ A complete production-ready full-stack application built with the MERN stack (Mo
 - **Responsive Design**: Beautiful UI powered by TailwindCSS.
 - **Dockerized**: Easy setup and deployment using Docker Compose.
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 - Node.js (v20 recommended)
 - MongoDB (if running locally without Docker)
 - Docker and Docker Compose (if running with Docker)
 
-## 🛠️ Local Setup (Without Docker)
+## Local Setup (Without Docker)
 
 ### 1. Database Setup
 Ensure MongoDB is running locally on `mongodb://localhost:27017` or use a MongoDB Atlas URI.
@@ -86,7 +86,7 @@ Ensure MongoDB is running locally on `mongodb://localhost:27017` or use a MongoD
    ```
    *The frontend will run on http://localhost:3000*
 
-## 🐳 Local Setup (With Docker)
+## Local Setup (With Docker)
 
 To run the entire stack (MongoDB, Backend, Frontend) with a single command:
 
@@ -99,7 +99,7 @@ To run the entire stack (MongoDB, Backend, Frontend) with a single command:
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
 
-## 🔑 Environment Variables
+## Environment Variables
 
 ### Server (`server/.env`)
 - `PORT`: Port for the Express server (default: 5000)
@@ -110,7 +110,7 @@ To run the entire stack (MongoDB, Backend, Frontend) with a single command:
 ### Client (`client/.env`)
 - `VITE_API_URL`: URL of the backend API (e.g., http://localhost:5000/api)
 
-## 🧪 Default Test Credentials
+## Default Test Credentials
 
 You can register new users through the app. To test roles, register an account, and select the desired role (Admin or Sales).
 
@@ -118,7 +118,7 @@ You can register new users through the app. To test roles, register an account, 
 - **Admin**: `admin@example.com` / `password123` (Select 'Administrator' role)
 - **Sales**: `sales@example.com` / `password123` (Select 'Sales Representative' role)
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 ├── client/                 # Frontend React Application
@@ -148,11 +148,11 @@ You can register new users through the app. To test roles, register an account, 
 └── docker-compose.yml      # Multi-container Docker configuration
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 Detailed API documentation is available in `server/API_DOCS.md`. It covers all authentication and lead management endpoints, request/response formats, and required roles.
 
-## 🚀 Deployment Notes
+## Deployment Notes
 
 - **Database:** MongoDB Atlas is recommended for production. Update `MONGODB_URI` accordingly.
 - **Backend (Server):** Can be easily deployed to Render, Railway, or Heroku. Ensure you set the environment variables in the dashboard.
