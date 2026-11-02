@@ -157,3 +157,6 @@ Detailed API documentation is available in `server/API_DOCS.md`. It covers all a
 - **Database:** MongoDB Atlas is recommended for production. Update `MONGODB_URI` accordingly.
 - **Backend (Server):** Can be easily deployed to Render, Railway, or Heroku. Ensure you set the environment variables in the dashboard.
 - **Frontend (Client):** Ideal for Vercel or Netlify. Set the build command to `npm run build` and publish directory to `dist`. Set `VITE_API_URL` to your deployed backend URL.
+
+## License
+MIT - see [LICENSE](LICENSE).
